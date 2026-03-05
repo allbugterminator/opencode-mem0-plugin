@@ -42,7 +42,7 @@ cp -r opencode-mem0-plugin .opencode/plugins/mem0
 
 ### 2. Configure API Key
 
-Create `mem0-config.json` in the plugin directory:
+Edit `mem0-config.json` in the plugin directory:
 
 ```json
 {
