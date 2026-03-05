@@ -1,0 +1,10 @@
+{
+  "name": "opencode-mem0-plugin",
+  "version": "1.0.0",
+  "description": "Mem0 memory layer integration for OpenCode",
+  "main": "mem0-plugin.ts",
+  "dependencies": {
+    "mem0ai": "^1.0.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,4 @@
+node_modules/
+.env
+*.log
+mem0-config.json
