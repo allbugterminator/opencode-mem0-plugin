@@ -29,7 +29,7 @@ Traditional AI assistants have no memory - they forget everything after each con
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/opencode-mem0-plugin.git
+git clone https://github.com/allbugterminator/opencode-mem0-plugin.git
 
 # Copy to global plugin directory
 mkdir -p ~/.config/opencode/plugins/
