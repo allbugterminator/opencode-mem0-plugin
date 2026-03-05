@@ -42,13 +42,13 @@ cp -r opencode-mem0-plugin .opencode/plugins/mem0
 
 ### 2. Configure API Key
 
+Sign up at [Mem0 Platform](https://app.mem0.ai) to get your API key.
+
 Create `mem0-config.json` in the plugin directory:
 
 ```json
 {
-  "apiKey": "your-mem0-api-key",
-  "orgId": "your-org-id",
-  "projectId": "your-project-id"
+  "apiKey": "your-mem0-api-key"
 }
 ```
 
@@ -56,8 +56,6 @@ Or via environment variables:
 
 ```bash
 export MEM0_API_KEY=your-api-key
-export MEM0_ORG_ID=your-org-id
-export MEM0_PROJECT_ID=your-project-id
 ```
 
 ### 3. Install Dependencies
@@ -75,9 +73,9 @@ The plugin will load automatically on next startup.
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| `apiKey` | string | - | Mem0 Cloud API key |
-| `orgId` | string | - | Mem0 Organization ID |
-| `projectId` | string | - | Mem0 Project ID |
+| `apiKey` | string | - | Mem0 Cloud API key (required) |
+| `orgId` | string | - | Mem0 Organization ID (optional, for multi-tenant) |
+| `projectId` | string | - | Mem0 Project ID (optional, for project isolation) |
 | `host` | string | `https://api.mem0.ai` | Self-hosted Mem0 server URL |
 
 ## Available Tools
