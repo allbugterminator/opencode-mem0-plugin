@@ -62,7 +62,8 @@ export MEM0_API_KEY=your-api-key
 
 ```bash
 cd ~/.config/opencode/plugins/mem0
-bun install
+bun install 
+# or use: npm install
 ```
 
 ### 4. Restart OpenCode
